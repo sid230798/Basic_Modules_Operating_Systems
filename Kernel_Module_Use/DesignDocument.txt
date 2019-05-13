@@ -1,0 +1,92 @@
+---------------------------------------------------------------
+
+Name :- Siddharth Nahar
+Entry No :- 2016csb1043
+Date :- 4/9/18
+Use :- Design Document for Kernel Module Creation
+
+------------------------------------------------------------------
+
+Headers/Libraries Used :-
+
+#include <linux/random.h> :- For inserting Random Birthdates
+
+#include <linux/slab.h> :- Contains headers for kmalloc and kfree functions
+
+#include <linux/list.h> :- List is header which contains function for add,del and traverse list
+
+#include <linux/types.h> :- Contains structure of list_head contains next and prev pointers
+
+int simple_init(void) :- It's starting point when kernel is loaded in memory.Returns 0 indicating Success for loading module
+
+void simple_exit(void) :- It's Ending point when kernel is removed from memory.
+
+-------------------------------------------------------------------------
+
+For Initialising Head Pointer for Linked List :-
+
+static LIST_HEAD(birthday_list);
+
+* Creates Head pointer for linked list of Birthday Structures.Static as its updated each time we use.
+
+-------------------------------------------------------------------------------
+
+Inserting Elements to Linked List :-
+
+
+	int i = 5;
+	while(i-- > 0){
+	
+		tmp = (struct birthday*)kmalloc(sizeof(struct birthday),GFP_KERNEL);
+		/*Generate Random day,month and year*/
+		int day = get_random_int()%28 + 1;
+		int month = get_random_int()%12 + 1;
+		int year = 1985 + get_random_int()%25;
+
+		/*Iniaitalise structure with above data*/
+		tmp->day = day;
+		tmp->month = month;
+		tmp->year = year;
+
+		/*Initialise list_head data by below function*/
+		INIT_LIST_HEAD(&tmp->list);
+		/*Add to list tail by birthday_list head*/
+		list_add_tail(&tmp->list,&birthday_list);
+	}
+
+* Creates Random date and insert it in structure.
+* Initaise each strucutre as Linked list element.
+* Add to tail of list.
+
+----------------------------------------------------------------------------------
+
+Traversing through List :-
+
+	list_for_each_entry(person,&birthday_list,list){
+
+		printk(KERN_INFO "BirthDate of Person%d = %d/%d/%d\n",count,person->day,person->month,person->year);
+		count++;
+	}
+
+* Use Inbuilt function to traverse linked List
+* Parameters :-
+	ptr :- Pointer to structure of element in list.
+	birthday_list :- Reference to Linked List head pointer.
+	list :- Variable name in ptr for list_head
+
+-----------------------------------------------------------------------------------------
+
+Free Memory of Linked List :-
+
+	list_for_each_entry_safe(ptr,next,&birthday_list,list) {
+
+		/*ptr points to current cursor*/
+		/*next points to next cursor*/
+		/*Free List pointer and struct pointer*/
+		list_del(&ptr->list);
+		kfree(ptr);
+	}
+
+----------------------------------------------------------------------------------------
+
+

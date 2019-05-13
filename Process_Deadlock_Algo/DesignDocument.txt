@@ -1,0 +1,107 @@
+---------------------------------------------------------------------------------
+
+Name :- Siddharth Nahar
+Entry No :- 2016csb1043
+Date :- 15/10/18
+Purpose :-
+	
+	1. Check for Deadlock among process at given time
+	2. Read CSV file for input
+
+-----------------------------------------------------------------------------------
+
+*Read from CSV file 
+
+
+		/*CSVReader file takes test file in csv and delimites by ","*/
+		CSVReader reader = new CSVReader(new FileReader(args[0]));
+
+-----------------------------------------------------------------------------------
+
+*Algorithm for DeadLock Detection
+
+	1. W = Available Resources at time t.
+	   P_i(t) = Allocated Resources to Process i at time t
+	   Q_I(t) = Requested Resources by Process i at time t
+	   Mark all Process marked when P_i(t) == 0
+
+	2. Check for Unmarked Resources when Q_i(t) <= W,If not found terminate else go to step 3
+
+	3. Update Available resources as
+		W = W + P_i(t)
+
+
+Code :-
+
+
+		for(int i = 0 ;i<listProcess.size();i++){
+
+				Process obj = listProcess.get(i);
+				if(obj.checkZero())
+					obj.marked = 1;
+
+		}
+
+		/*Continue Process till we get Unmarked resource with Q(i)<=W*/
+		while(checkMarked(listAvailable,listProcess));
+
+		/*This function takes parameters as :
+
+		1. Available Resources
+		2. Allocated Resources
+
+		This function updates Available Resource if Q(i) <= W
+
+		W = W + P(i)
+
+		*/
+		static void update(List<Integer> listAvailable,List<Integer> up){
+
+			for(int i = 0;i<listAvailable.size();i++){
+
+				int a = up.get(i);
+				int b = listAvailable.get(i);
+
+				/*Updates value of resource by P(i)*/
+				listAvailable.set(i,a+b);
+
+			}
+
+
+		}
+
+		/*This function takes parameters as :
+
+			1. Available Resource
+			2. List of all Process
+
+			* This function iterates through all Process
+			* If Process is unmarked check Q(i) <= W,Update Available
+			* Continue iterating till no process is found
+		*/
+		static boolean checkMarked(List<Integer> listAvailable,List<Process> p){
+
+			boolean checkVal = false;
+			for(int i = 0;i<p.size();i++){
+
+				Process obj = p.get(i);
+				if(obj.marked == 0){
+
+					/*If object is unmarked Check for Q(i) <= W and Update W = W + P(i)*/
+					if(check(listAvailable,obj.Q_Requested)){
+
+						update(listAvailable,obj.P_Allocated);
+						obj.marked = 1;
+						checkVal = true;
+					}
+
+
+				}
+
+			}		
+
+			return checkVal;
+
+		}
+
+----------------------------------------------------------------------------------------------------

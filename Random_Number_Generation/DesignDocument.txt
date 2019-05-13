@@ -1,0 +1,102 @@
+---------------------------------------------------------------
+
+Name :- Siddharth Nahar
+Entry No :- 2016csb1043
+Date :- 7/10/18
+Use :- Design Document for Unique number generation
+
+------------------------------------------------------------------
+
+UniqueNumber Data Structure :-
+
+1. Created 2-D array to store all Unique numbers.
+2. HashMap used to store and check all unique numbers.
+3. Boolean 2-D array to check if that index is visited or not.
+
+
+-------------------------------------------------------------------
+
+* To get Base as Oldest Generated number
+
+		if(baseRow < rows && baseCol < multi){
+			
+			if(baseVisited[baseRow][baseCol] == true){
+
+				value = baseValues[baseRow][baseCol++];
+
+				if(value != -1)
+					rowInsert = ++rowIndex;
+			}
+				else
+					value = -1;
+				
+				
+			}
+			else{
+				value = -1;
+				//System.out.println("This is the Problem");
+			}
+
+----------------------------------------------------------------------------
+
+*To use HahMap to check for unique number
+
+		if(uniqueHash.containsKey(val)){
+
+			Pair pT = uniqueHash.get(val);
+			
+			if(pT.row > row){
+			
+				//System.out.println("Value Exchanged");
+				baseValues[row][col] = val;
+				baseValues[pT.row][pT.col] = -1;
+				pT.row = row;
+				pT.col = col;
+				uniqueHash.put(val,pT);
+			}
+
+			baseVisited[row][col] = true;
+
+			return;
+
+		}
+
+-----------------------------------------------------------------------------------
+
+*To use boolean 2-D array and Record Instance
+
+	if(uniqueHash.containsKey(val)){
+
+			Pair pT = uniqueHash.get(val);
+			
+			if(pT.row > row){
+			
+				//System.out.println("Value Exchanged");
+				baseValues[row][col] = val;
+				baseValues[pT.row][pT.col] = -1;
+				pT.row = row;
+				pT.col = col;
+				uniqueHash.put(val,pT);
+			}
+
+			baseVisited[row][col] = true;
+
+			return;
+
+		}else{
+
+			/*If value is not present insert the value */
+			if(row == -1)
+				return;
+
+			Pair pp = new Pair(val,row,col);
+			baseValues[row][col] = val;
+			baseVisited[row][col] = true;
+			uniqueHash.put(val,pp);
+
+			//lastGenerated = val;
+			//System.out.println("This Values is inserted at "+row+" "+col+" "+val);
+			return;
+		}
+
+---------------------------------------------------------------------------------------------------

@@ -1,0 +1,137 @@
+---------------------------------------------------------
+
+Name :- Siddharth Nahar
+Entry No :- 2016csb1043
+Date :- 7/11/18
+
+----------------------------------------------------------
+
+* I used a class to store complete Inverted Table
+* Each entry consists of Objects whict store page ,time,frequency
+
+* For Page and Offset Calculation :
+
+	#Make all Addresses of Length of number of bits of Address
+	def padWithZeros(self,Addr):
+
+		Bits = int(self.sizeAddress/4)
+
+		return Addr[2:].zfill(Bits)
+
+#------------------------------------------------------------------------------------------
+
+	#Get Page Number and Offset of Address
+	def getPageOff(self,Addr):	
+
+		#Get Number of Offset bits to Seperate
+		bitsOffset = int(log2(self.sizePage) + 10)		
+
+		index = self.sizeAddress - bitsOffset
+
+		#Get Required PageNumber and Offset string
+		PageNumber = Addr[:index]
+		Offset = Addr[index:]
+
+		return PageNumber,Offset
+
+
+---------------------------------------------------------------------------------------------
+
+* FIFO Replacement Algo :-
+
+	#FIFO Replacement Policy
+	def FIFO(self,page):
+
+		minIndex = 0
+		minValue = MAX_INT
+
+		#Iterate through Inverted Page table for searching given page number and Increment its use
+		for index,Obj in enumerate(self.table):
+
+			#Get Frame which was inserted earliest
+			if(Obj.time <= minValue):
+
+				minValue = Obj.time
+				minIndex = index
+		
+		#Insert new Object at that index
+		self.table[minIndex] = Entry(page,self.count)
+
+		return minIndex
+
+--------------------------------------------------------------------------------------------
+
+*LFU Replacement Policy
+
+
+	#LFU replacement policy
+	def LFU(self,page):
+
+		minIndex = 0
+		minValueUse = MAX_INT
+		minTime = MAX_INT		
+
+		#Iterate through Inverted Page table for searching given page number and Increment its use
+		for index,Obj in enumerate(self.table):
+
+			#Get Frame which was inserted earliest
+			if(Obj.use < minValueUse):
+
+				minValueUse = Obj.use
+				minTime = Obj.time
+				minIndex = index
+			
+			#If ,any frames are less use select one with earliest insertion
+			elif(Obj.use == minValueUse):
+
+				if(Obj.time <= minTime):
+
+					minValueUse = Obj.use
+					minTime = Obj.time
+					minIndex = index
+			else:
+				continue
+						
+		#Insert new Object at that index
+		self.table[minIndex] = Entry(page,self.count)
+
+		return minIndex
+
+-------------------------------------------------------------------------------------------------
+
+* MFU Replacement Policy
+
+	def MFU(self,page):
+
+		minIndex = 0
+		maxValueUse = -1
+		minTime = MAX_INT		
+
+		#Iterate through Inverted Page table for searching given page number and Increment its use
+		for index,Obj in enumerate(self.table):
+
+			#Get Frame which was inserted earliest
+			if(Obj.use > maxValueUse):
+
+				maxValueUse = Obj.use
+				minTime = Obj.time
+				minIndex = index
+			
+			#If ,any frames are more used select one with earliest insertion
+			elif(Obj.use == maxValueUse):
+
+				if(Obj.time <= minTime):
+
+					maxValueUse = Obj.use
+					minTime = Obj.time
+					minIndex = index
+			#Else continue
+			else:
+				continue
+		
+		#Insert new Object at that index
+		self.table[minIndex] = Entry(page,self.count)
+
+		return minIndex
+
+------------------------------------------------------------------------------------------------------	
