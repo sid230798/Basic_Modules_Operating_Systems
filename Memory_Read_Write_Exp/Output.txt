@@ -1,0 +1,444 @@
+For N = 10 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 10 bytes : 0.005779 secs and Effective Speed : 1730.40 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 10 bytes : 0.005505 secs and Effective Speed : 1816.53 MB/s
+Average Effective Speed read/write : 86.612332 MB/s
+Average Effective Speed write : 156.599903 MB/s
+Average Effective Speed read : 193.798450 MB/s
+-------------------------------------------------------------------------------
+For N = 10 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 20 bytes : 0.002251 secs and Effective Speed : 4442.47 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 20 bytes : 0.002134 secs and Effective Speed : 4686.04 MB/s
+Average Effective Speed read/write : 92.116657 MB/s
+Average Effective Speed write : 165.757762 MB/s
+Average Effective Speed read : 207.344129 MB/s
+-------------------------------------------------------------------------------
+For N = 10 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 30 bytes : 0.001645 secs and Effective Speed : 6079.03 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 30 bytes : 0.001469 secs and Effective Speed : 6807.35 MB/s
+Average Effective Speed read/write : 93.207938 MB/s
+Average Effective Speed write : 167.439680 MB/s
+Average Effective Speed read : 210.243041 MB/s
+-------------------------------------------------------------------------------
+For N = 10 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 40 bytes : 0.001572 secs and Effective Speed : 6361.32 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 40 bytes : 0.001555 secs and Effective Speed : 6430.87 MB/s
+Average Effective Speed read/write : 93.196645 MB/s
+Average Effective Speed write : 167.644593 MB/s
+Average Effective Speed read : 209.863589 MB/s
+-------------------------------------------------------------------------------
+For N = 10 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 50 bytes : 0.001511 secs and Effective Speed : 6618.13 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 50 bytes : 0.001278 secs and Effective Speed : 7824.73 MB/s
+Average Effective Speed read/write : 93.491146 MB/s
+Average Effective Speed write : 167.816208 MB/s
+Average Effective Speed read : 211.090706 MB/s
+-------------------------------------------------------------------------------
+For N = 10 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 0.058078 secs and Effective Speed : 172.18 MB/s
+Time Taken after Writing 60 bytes : 0.001438 secs and Effective Speed : 6954.10 MB/s
+Time Taken after Reading Single bytes : 0.046095 secs and Effective Speed : 216.94 MB/s
+Time Taken after Reading 60 bytes : 0.001111 secs and Effective Speed : 9000.90 MB/s
+Average Effective Speed read/write : 93.701392 MB/s
+Average Effective Speed write : 168.022044 MB/s
+Average Effective Speed read : 211.837478 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 20 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 10 bytes : 0.011536 secs and Effective Speed : 1733.70 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 10 bytes : 0.011038 secs and Effective Speed : 1811.92 MB/s
+Average Effective Speed read/write : 92.648353 MB/s
+Average Effective Speed write : 175.132882 MB/s
+Average Effective Speed read : 196.712927 MB/s
+-------------------------------------------------------------------------------
+For N = 20 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 20 bytes : 0.004563 secs and Effective Speed : 4383.08 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 20 bytes : 0.004242 secs and Effective Speed : 4714.76 MB/s
+Average Effective Speed read/write : 98.960421 MB/s
+Average Effective Speed write : 186.521926 MB/s
+Average Effective Speed read : 210.803689 MB/s
+-------------------------------------------------------------------------------
+For N = 20 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 30 bytes : 0.003305 secs and Effective Speed : 6051.44 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 30 bytes : 0.002875 secs and Effective Speed : 6956.52 MB/s
+Average Effective Speed read/write : 100.262688 MB/s
+Average Effective Speed write : 188.736222 MB/s
+Average Effective Speed read : 213.885443 MB/s
+-------------------------------------------------------------------------------
+For N = 20 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 40 bytes : 0.003156 secs and Effective Speed : 6337.14 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 40 bytes : 0.003107 secs and Effective Speed : 6437.08 MB/s
+Average Effective Speed read/write : 100.220987 MB/s
+Average Effective Speed write : 189.001975 MB/s
+Average Effective Speed read : 213.356091 MB/s
+-------------------------------------------------------------------------------
+For N = 20 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 50 bytes : 0.003061 secs and Effective Speed : 6533.81 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 50 bytes : 0.002564 secs and Effective Speed : 7800.31 MB/s
+Average Effective Speed read/write : 100.542426 MB/s
+Average Effective Speed write : 189.171806 MB/s
+Average Effective Speed read : 214.599182 MB/s
+-------------------------------------------------------------------------------
+For N = 20 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 0.102663 secs and Effective Speed : 194.81 MB/s
+Time Taken after Writing 60 bytes : 0.002926 secs and Effective Speed : 6835.27 MB/s
+Time Taken after Reading Single bytes : 0.090633 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 60 bytes : 0.002175 secs and Effective Speed : 9195.40 MB/s
+Average Effective Speed read/write : 100.807976 MB/s
+Average Effective Speed write : 189.413670 MB/s
+Average Effective Speed read : 215.498664 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 40 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 10 bytes : 0.023233 secs and Effective Speed : 1721.69 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 10 bytes : 0.022104 secs and Effective Speed : 1809.63 MB/s
+Average Effective Speed read/write : 92.715999 MB/s
+Average Effective Speed write : 175.963400 MB/s
+Average Effective Speed read : 195.977561 MB/s
+-------------------------------------------------------------------------------
+For N = 40 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 20 bytes : 0.009044 secs and Effective Speed : 4422.82 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 20 bytes : 0.008437 secs and Effective Speed : 4741.02 MB/s
+Average Effective Speed read/write : 99.115641 MB/s
+Average Effective Speed write : 187.678001 MB/s
+Average Effective Speed read : 210.042113 MB/s
+-------------------------------------------------------------------------------
+For N = 40 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 30 bytes : 0.006606 secs and Effective Speed : 6055.10 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 30 bytes : 0.005735 secs and Effective Speed : 6974.72 MB/s
+Average Effective Speed read/write : 100.394299 MB/s
+Average Effective Speed write : 189.849687 MB/s
+Average Effective Speed read : 213.065155 MB/s
+-------------------------------------------------------------------------------
+For N = 40 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 40 bytes : 0.006334 secs and Effective Speed : 6315.12 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 40 bytes : 0.006196 secs and Effective Speed : 6455.78 MB/s
+Average Effective Speed read/write : 100.346698 MB/s
+Average Effective Speed write : 190.095095 MB/s
+Average Effective Speed read : 212.543239 MB/s
+-------------------------------------------------------------------------------
+For N = 40 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 50 bytes : 0.006142 secs and Effective Speed : 6512.54 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 50 bytes : 0.005050 secs and Effective Speed : 7920.79 MB/s
+Average Effective Speed read/write : 100.684656 MB/s
+Average Effective Speed write : 190.268707 MB/s
+Average Effective Speed read : 213.845422 MB/s
+-------------------------------------------------------------------------------
+For N = 40 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 0.204087 secs and Effective Speed : 195.99 MB/s
+Time Taken after Writing 60 bytes : 0.005916 secs and Effective Speed : 6761.33 MB/s
+Time Taken after Reading Single bytes : 0.182001 secs and Effective Speed : 219.78 MB/s
+Time Taken after Reading 60 bytes : 0.004277 secs and Effective Speed : 9352.35 MB/s
+Average Effective Speed read/write : 100.938475 MB/s
+Average Effective Speed write : 190.473469 MB/s
+Average Effective Speed read : 214.732819 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 80 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 10 bytes : 0.046341 secs and Effective Speed : 1726.33 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 10 bytes : 0.043969 secs and Effective Speed : 1819.46 MB/s
+Average Effective Speed read/write : 92.980009 MB/s
+Average Effective Speed write : 176.249887 MB/s
+Average Effective Speed read : 196.802452 MB/s
+-------------------------------------------------------------------------------
+For N = 80 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 20 bytes : 0.017954 secs and Effective Speed : 4455.83 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 20 bytes : 0.017144 secs and Effective Speed : 4666.36 MB/s
+Average Effective Speed read/write : 99.355678 MB/s
+Average Effective Speed write : 188.007915 MB/s
+Average Effective Speed read : 210.707080 MB/s
+-------------------------------------------------------------------------------
+For N = 80 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 30 bytes : 0.013326 secs and Effective Speed : 6003.30 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 30 bytes : 0.011403 secs and Effective Speed : 7015.70 MB/s
+Average Effective Speed read/write : 100.651847 MB/s
+Average Effective Speed write : 190.075222 MB/s
+Average Effective Speed read : 213.942070 MB/s
+-------------------------------------------------------------------------------
+For N = 80 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 40 bytes : 0.013831 secs and Effective Speed : 5784.11 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 40 bytes : 0.012402 secs and Effective Speed : 6450.57 MB/s
+Average Effective Speed read/write : 100.461747 MB/s
+Average Effective Speed write : 189.847434 MB/s
+Average Effective Speed read : 213.372025 MB/s
+-------------------------------------------------------------------------------
+For N = 80 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 50 bytes : 0.012129 secs and Effective Speed : 6595.76 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 50 bytes : 0.010098 secs and Effective Speed : 7922.36 MB/s
+Average Effective Speed read/write : 100.969688 MB/s
+Average Effective Speed write : 190.617338 MB/s
+Average Effective Speed read : 214.691328 MB/s
+-------------------------------------------------------------------------------
+For N = 80 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 0.407560 secs and Effective Speed : 196.29 MB/s
+Time Taken after Writing 60 bytes : 0.011725 secs and Effective Speed : 6823.03 MB/s
+Time Taken after Reading Single bytes : 0.362530 secs and Effective Speed : 220.67 MB/s
+Time Taken after Reading 60 bytes : 0.008455 secs and Effective Speed : 9461.86 MB/s
+Average Effective Speed read/write : 101.231225 MB/s
+Average Effective Speed write : 190.801006 MB/s
+Average Effective Speed read : 215.642142 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 160 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 10 bytes : 0.092393 secs and Effective Speed : 1731.73 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 10 bytes : 0.088032 secs and Effective Speed : 1817.52 MB/s
+Average Effective Speed read/write : 93.183673 MB/s
+Average Effective Speed write : 177.048730 MB/s
+Average Effective Speed read : 196.721392 MB/s
+-------------------------------------------------------------------------------
+For N = 160 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 20 bytes : 0.036758 secs and Effective Speed : 4352.79 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 20 bytes : 0.033789 secs and Effective Speed : 4735.27 MB/s
+Average Effective Speed read/write : 99.554432 MB/s
+Average Effective Speed write : 188.663449 MB/s
+Average Effective Speed read : 210.778696 MB/s
+-------------------------------------------------------------------------------
+For N = 160 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 30 bytes : 0.026350 secs and Effective Speed : 6072.11 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 30 bytes : 0.022910 secs and Effective Speed : 6983.85 MB/s
+Average Effective Speed read/write : 100.890739 MB/s
+Average Effective Speed write : 191.007601 MB/s
+Average Effective Speed read : 213.843421 MB/s
+-------------------------------------------------------------------------------
+For N = 160 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 40 bytes : 0.025463 secs and Effective Speed : 6283.63 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 40 bytes : 0.024694 secs and Effective Speed : 6479.31 MB/s
+Average Effective Speed read/write : 100.833706 MB/s
+Average Effective Speed write : 191.210073 MB/s
+Average Effective Speed read : 213.334756 MB/s
+-------------------------------------------------------------------------------
+For N = 160 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 50 bytes : 0.024424 secs and Effective Speed : 6550.93 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 50 bytes : 0.020133 secs and Effective Speed : 7947.15 MB/s
+Average Effective Speed read/write : 101.190826 MB/s
+Average Effective Speed write : 191.447788 MB/s
+Average Effective Speed read : 214.640062 MB/s
+-------------------------------------------------------------------------------
+For N = 160 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 0.811313 secs and Effective Speed : 197.21 MB/s
+Time Taken after Writing 60 bytes : 0.023549 secs and Effective Speed : 6794.34 MB/s
+Time Taken after Reading Single bytes : 0.725301 secs and Effective Speed : 220.60 MB/s
+Time Taken after Reading 60 bytes : 0.016909 secs and Effective Speed : 9462.42 MB/s
+Average Effective Speed read/write : 101.453833 MB/s
+Average Effective Speed write : 191.648440 MB/s
+Average Effective Speed read : 215.572412 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 320 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 10 bytes : 0.184716 secs and Effective Speed : 1732.39 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 10 bytes : 0.179544 secs and Effective Speed : 1782.29 MB/s
+Average Effective Speed read/write : 93.019010 MB/s
+Average Effective Speed write : 177.154587 MB/s
+Average Effective Speed read : 195.859410 MB/s
+-------------------------------------------------------------------------------
+For N = 320 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 20 bytes : 0.071961 secs and Effective Speed : 4446.85 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 20 bytes : 0.067468 secs and Effective Speed : 4742.99 MB/s
+Average Effective Speed read/write : 99.523345 MB/s
+Average Effective Speed write : 188.949189 MB/s
+Average Effective Speed read : 210.284350 MB/s
+-------------------------------------------------------------------------------
+For N = 320 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 30 bytes : 0.052540 secs and Effective Speed : 6090.60 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 30 bytes : 0.045787 secs and Effective Speed : 6988.88 MB/s
+Average Effective Speed read/write : 100.812041 MB/s
+Average Effective Speed write : 191.141088 MB/s
+Average Effective Speed read : 213.323663 MB/s
+-------------------------------------------------------------------------------
+For N = 320 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 40 bytes : 0.050981 secs and Effective Speed : 6276.85 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 40 bytes : 0.049583 secs and Effective Speed : 6453.82 MB/s
+Average Effective Speed read/write : 100.741045 MB/s
+Average Effective Speed write : 191.319248 MB/s
+Average Effective Speed read : 212.785199 MB/s
+-------------------------------------------------------------------------------
+For N = 320 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 50 bytes : 0.048360 secs and Effective Speed : 6617.04 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 50 bytes : 0.040206 secs and Effective Speed : 7959.01 MB/s
+Average Effective Speed read/write : 101.123003 MB/s
+Average Effective Speed write : 191.619520 MB/s
+Average Effective Speed read : 214.120297 MB/s
+-------------------------------------------------------------------------------
+For N = 320 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 1.621616 secs and Effective Speed : 197.33 MB/s
+Time Taken after Writing 60 bytes : 0.046875 secs and Effective Speed : 6826.67 MB/s
+Time Taken after Reading Single bytes : 1.454281 secs and Effective Speed : 220.04 MB/s
+Time Taken after Reading 60 bytes : 0.033619 secs and Effective Speed : 9518.43 MB/s
+Average Effective Speed read/write : 101.381610 MB/s
+Average Effective Speed write : 191.790067 MB/s
+Average Effective Speed read : 215.068217 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 640 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 10 bytes : 0.369256 secs and Effective Speed : 1733.21 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 10 bytes : 0.352232 secs and Effective Speed : 1816.98 MB/s
+Average Effective Speed read/write : 93.274772 MB/s
+Average Effective Speed write : 177.223757 MB/s
+Average Effective Speed read : 196.911323 MB/s
+-------------------------------------------------------------------------------
+For N = 640 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 20 bytes : 0.143835 secs and Effective Speed : 4449.54 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 20 bytes : 0.134879 secs and Effective Speed : 4744.99 MB/s
+Average Effective Speed read/write : 99.709068 MB/s
+Average Effective Speed write : 189.022908 MB/s
+Average Effective Speed read : 211.023262 MB/s
+-------------------------------------------------------------------------------
+For N = 640 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 30 bytes : 0.107109 secs and Effective Speed : 5975.22 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 30 bytes : 0.091052 secs and Effective Speed : 7028.95 MB/s
+Average Effective Speed read/write : 100.976299 MB/s
+Average Effective Speed write : 191.095716 MB/s
+Average Effective Speed read : 214.117431 MB/s
+-------------------------------------------------------------------------------
+For N = 640 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 40 bytes : 0.102423 secs and Effective Speed : 6248.60 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 40 bytes : 0.098901 secs and Effective Speed : 6471.12 MB/s
+Average Effective Speed read/write : 100.925932 MB/s
+Average Effective Speed write : 191.363468 MB/s
+Average Effective Speed read : 213.556642 MB/s
+-------------------------------------------------------------------------------
+For N = 640 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 50 bytes : 0.098424 secs and Effective Speed : 6502.48 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 50 bytes : 0.080505 secs and Effective Speed : 7949.82 MB/s
+Average Effective Speed read/write : 101.283628 MB/s
+Average Effective Speed write : 191.592559 MB/s
+Average Effective Speed read : 214.875639 MB/s
+-------------------------------------------------------------------------------
+For N = 640 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 3.241998 secs and Effective Speed : 197.41 MB/s
+Time Taken after Writing 60 bytes : 0.095482 secs and Effective Speed : 6702.83 MB/s
+Time Taken after Reading Single bytes : 2.897962 secs and Effective Speed : 220.84 MB/s
+Time Taken after Reading 60 bytes : 0.066981 secs and Effective Speed : 9554.95 MB/s
+Average Effective Speed read/write : 101.548246 MB/s
+Average Effective Speed write : 191.761449 MB/s
+Average Effective Speed read : 215.855752 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+For N = 1280 MB and k = 10 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 10 bytes : 0.738978 secs and Effective Speed : 1732.12 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 10 bytes : 0.703847 secs and Effective Speed : 1818.58 MB/s
+Average Effective Speed read/write : 93.205603 MB/s
+Average Effective Speed write : 177.133528 MB/s
+Average Effective Speed read : 196.714469 MB/s
+-------------------------------------------------------------------------------
+For N = 1280 MB and k = 20 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 20 bytes : 0.287699 secs and Effective Speed : 4449.09 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 20 bytes : 0.269992 secs and Effective Speed : 4740.88 MB/s
+Average Effective Speed read/write : 99.626820 MB/s
+Average Effective Speed write : 188.932455 MB/s
+Average Effective Speed read : 210.767659 MB/s
+-------------------------------------------------------------------------------
+For N = 1280 MB and k = 30 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 30 bytes : 0.214663 secs and Effective Speed : 5962.83 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 30 bytes : 0.181956 secs and Effective Speed : 7034.67 MB/s
+Average Effective Speed read/write : 100.891677 MB/s
+Average Effective Speed write : 190.991413 MB/s
+Average Effective Speed read : 213.867932 MB/s
+-------------------------------------------------------------------------------
+For N = 1280 MB and k = 40 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 40 bytes : 0.206092 secs and Effective Speed : 6210.82 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 40 bytes : 0.197973 secs and Effective Speed : 6465.53 MB/s
+Average Effective Speed read/write : 100.832498 MB/s
+Average Effective Speed write : 191.235984 MB/s
+Average Effective Speed read : 213.297108 MB/s
+-------------------------------------------------------------------------------
+For N = 1280 MB and k = 50 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 50 bytes : 0.198269 secs and Effective Speed : 6455.88 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 50 bytes : 0.160482 secs and Effective Speed : 7975.97 MB/s
+Average Effective Speed read/write : 101.193722 MB/s
+Average Effective Speed write : 191.459758 MB/s
+Average Effective Speed read : 214.638046 MB/s
+-------------------------------------------------------------------------------
+For N = 1280 MB and k = 60 bytes :- 
+Time Taken after Writing Single bytes : 6.487209 secs and Effective Speed : 197.31 MB/s
+Time Taken after Writing 60 bytes : 0.191638 secs and Effective Speed : 6679.26 MB/s
+Time Taken after Reading Single bytes : 5.803046 secs and Effective Speed : 220.57 MB/s
+Time Taken after Reading 60 bytes : 0.133711 secs and Effective Speed : 9572.88 MB/s
+Average Effective Speed read/write : 101.461650 MB/s
+Average Effective Speed write : 191.649846 MB/s
+Average Effective Speed read : 215.605928 MB/s
+-------------------------------------------------------------------------------
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+Best N,K pair Found is : (640 MB,60 bytes) and Effective Average Speed is : 101.55 MB/s
+Best N,K pair Found is : (320 MB,60 bytes) and Effective Writing Speed is : 191.79 MB/s
+Best N,K pair Found is : (640 MB,60 bytes) and Effective Reading Speed is : 215.86 MB/s

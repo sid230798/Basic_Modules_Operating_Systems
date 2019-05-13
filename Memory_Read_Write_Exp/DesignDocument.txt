@@ -1,0 +1,74 @@
+------------------------------------------------------------
+
+Name :- Siddharth Nahar
+Entry No :- 2016csb1043
+Date :- 5/11/18
+
+-------------------------------------------------------------
+
+For Running All given Types :-
+
+For Writing k consecutive bytes :-
+
+/*Write k consecutive bytes and calculate time*/
+double writeBytes(unsigned char *Test,unsigned int TotSize,int k){
+
+	unsigned int index = 0;
+
+	clock_t t = clock();
+	/*Increment by k bytes and use memset to allocate consecutive memory*/
+	for(index = 0;index < TotSize;index += k){
+	
+		/*Check for boundary condition*/
+		unsigned int min = ((index + k >= TotSize)?(TotSize-index):k);
+
+		/*Memset for simultaneous allocation*/
+		memset(Test + index, 0xAB, min*sizeof(char));
+	}
+
+	t = clock() - t;
+
+	/*Caclulate time in seconds*/
+	return ((double)t)/CLOCKS_PER_SEC; 
+}
+
+
+--------------------------------------------------------------------------------
+
+For Reading k consecutive bytes :-
+
+/*Read k consecutive bytes from pointe*/
+double readBytes(unsigned char *Test,unsigned int TotSize,int k){
+	
+	clock_t t = clock();
+
+	/*Memcpy for simultaneous reading of bytes*/
+	char* tmp = malloc(k*sizeof(char));
+
+
+	/*Increment by k bytes and use memcpy to read consecutive memory*/
+	for(unsigned int index = 0;index < TotSize;index += k){
+	
+		/*Check for boundary condition*/
+		unsigned int min = (index + k >= TotSize?(TotSize-index):k);
+
+		memcpy(tmp, Test + index, min*sizeof(char));
+	}
+
+	t = clock() - t;
+
+	free(tmp);
+	/*Caclulate time in seconds*/
+	return ((double)t)/CLOCKS_PER_SEC;
+}
+
+-----------------------------------------------------------------------------------
+
+*Run Two Loops for Each pair of N,K
+*Speeds are calculated as :-
+
+			double avgSpeed = (Nbytes[i])/(Op1+Op2+Op3+Op4);
+			double avgSpeedWrite = (Nbytes[i])/(Op1 + Op2);
+			double avgSpeedRead = (Nbytes[i])/(Op3 + Op4);
+
+------------------------------------------------------------------------------------
